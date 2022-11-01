@@ -1,0 +1,355 @@
+body {
+    background-image: url(./background.jpg);
+    background-repeat: repeat-y;
+    background-repeat: repeat-x;
+    z-index: 1;
+}
+
+/*H1*/
+
+h1 {
+    position: relative;
+    left: 5%;
+    color: rgb(46, 46, 127);
+    font-size: 70px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.elementoh1 {
+    position: relative;
+    left: 5%;
+    top: 30px;
+    color: rgb(46, 46, 127);
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+/*H2*/
+
+h2 {
+    position: relative;
+    left: 50%;
+    top: -30px;
+    color: gray;
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 21px;
+}
+
+.h21, .h22, .h23 {
+    color: gray;
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    position: relative;
+    left: 957px;
+}
+
+.h24 {
+    position: relative;
+    left: 6.5%;
+    top: 3.5%;
+    color: gray;
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+}
+
+.h25 {
+    color: rgb(46, 46, 127);
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+/*H3*/
+
+h3 {
+    position: relative;
+    left: 5%;
+    top: 45px;
+    color: rgb(46, 46, 127);
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.h3 {
+    position: relative;
+    left: 8.5%;
+    top: 3%;
+    color: gray;
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+}
+
+.c1 {
+    position: relative;
+    left: 8.5%;
+    top: -32px;
+    color: gray;
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+}
+
+.c2 {
+    position: relative;
+    left: 8.5%;
+    top: -80px;
+    color: gray;
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+}
+
+/*H4*/
+
+h4 {
+    position: relative;
+    left: 40%;
+    top: -19%;
+    font-size: 25px;
+    color: rgb(46, 46, 127);
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+/*P*/
+
+p {
+    position: relative;
+    left: 5%;
+    color: gray;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 150%;
+}
+
+.p0{
+    position: relative;
+    left: 11%;
+    top: 7%;
+    color: gray;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 115%;
+}
+
+.p1 {
+    position: relative;
+    left: 40.5%;
+    top: -27%;
+    font-size: 100%;
+}
+
+.p2 {
+    color: rgb(46, 46, 127);
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+/*DIV*/
+
+.elementodiv {
+    height: 1000px;
+    width: 900px;
+}
+
+.elementodiv1 {
+    height: 350px;
+    width: 330px;
+    background-color: white;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    border: 3px solid rgba(232, 228, 228, 0.6);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.03), 0 6px 20px 0 rgba(0,0,0,0.01);
+    z-index: -1;
+}
+
+.divcolor {
+    position: relative;
+    top: 70%;
+    left: 1%;
+    height: 1000px;
+    width: 900px;
+    justify-content: space-around;
+    background-color: rgb(20, 138, 226);
+    display: flex;
+    z-index: -1;
+}
+
+.classdiv1 {
+    position: relative;
+    left: 11%;
+    top: 15%;
+    font-size: 160%;
+    color: rgb(46, 46, 127);
+    font-weight: 500;
+}
+
+.divcolor2 {
+    position: relative;
+    top: 460px;
+    left: -135px;
+    height: 500px;
+    width: 700px;
+    justify-content: space-around;
+    background-color: rgb(20, 138, 226);
+    display: flex;
+}
+
+.divcolor3 {
+    position: relative;
+    top: 100px;
+    left: 4%;
+    height: 600px;
+    width: 700px;
+    justify-content: space-around;
+    background-color: rgb(20, 138, 226);
+    display: flex;
+}
+
+.elementodiv2 {
+    position: relative;
+    height: 280px;
+    width: 330px;
+    background-color: white;
+    flex-wrap: wrap;
+    flex-direction: column;
+    left: -11.6%;
+    top: -200px;
+    border-radius: 10px;
+    border: 3px solid rgba(232, 228, 228, 0.6);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.03), 0 6px 20px 0 rgba(0,0,0,0.01);
+}
+
+.classdiv2 {
+    position: relative;
+    left: 8%;
+    top: 7%;
+    font-size: 160%;
+}
+
+.elementodiv3 {
+    position: relative;
+    height: 280px;
+    width: 330px;
+    background-color: white;
+    flex-wrap: wrap;
+    flex-direction: column;
+    left: -34.8%;
+    top: -200px;
+    border-radius: 10px;
+    border: 3px solid rgba(232, 228, 228, 0.6);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.03), 0 6px 20px 0 rgba(0,0,0,0.01);
+}
+
+.elementodiv4 {
+    height: 280px;
+    width: 330px;
+    background-color: white;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    border: 3px solid rgba(232, 228, 228, 0.6);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.03), 0 6px 20px 0 rgba(0,0,0,0.01);
+}
+
+/*Imagenes y botones*/
+
+.iconos1 {
+    position: relative;
+    top: 4px;
+    border-radius: 7px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.03), 0 6px 20px 0 rgba(0,0,0,0.01);
+}
+
+.vacunaslogo {
+    position: relative;
+    top: 30px;
+}
+
+.elementoimg1 {
+    position: relative;
+    top: 10%;
+    right: 4%;
+}
+
+.persona {
+    position: relative;
+    top: -56%;
+    left: 6%;
+
+}
+
+.persona1 {
+    position: relative;
+    top: -50%;
+    left: -3%;
+}
+
+#boton1 {
+    position: relative;
+    left: 40px;
+    top: -10%;
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 20px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 21px;
+    border-radius: 7px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#boton2 {
+    position: relative;
+    left: 40px;
+    top: -10%;
+    background-color: rgb(232, 228, 228);
+    border: none;
+    color: blue;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 21px;
+    border-radius: 7px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    padding: 20px 50px;
+}
+
+.iconos2 {
+    position: relative;
+    top: 15%;
+    left: 10%;
+    border-radius: 7px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.03), 0 6px 20px 0 rgba(0,0,0,0.01);
+}
+
+.locacionimg {
+    position: relative;
+    left: 5%;
+    z-index: 1;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+/*Sections*/
+
+.contenedor1 {
+    justify-content: space-around;
+    display: flex;
+}
+
+
+/*Footer*/
+
+footer {
+    background-color: rgb(232, 228, 228);
+    height: 460px;
+}
